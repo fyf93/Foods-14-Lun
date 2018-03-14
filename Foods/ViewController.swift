@@ -48,7 +48,6 @@ class ViewController: UIViewController {
         
         //Funzione che blocca l'audio quando clicco un bottone e vado in un'altra view
         play.addTarget(self, action: #selector(ViewController.stop), for: .touchUpInside)
-        parents.addTarget(self, action: #selector(ViewController.stop), for: .touchUpInside)
          setting.addTarget(self, action: #selector(ViewController.stop), for: .touchUpInside)
         
         let calendar = Calendar.current

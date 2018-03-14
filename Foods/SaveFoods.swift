@@ -74,7 +74,7 @@ var square7P = UIButton(frame: CGRect(x: corX, y: corY, width: 75, height: 75))
 var square8P = UIButton(frame: CGRect(x: corX, y: 10, width: 75, height: 75))
 //Array di pulsanti già inizializzati
 var foodButton: [UIButton] = [square , square2 , square3 , square4 , square5 , square6 ]
-let barrier = UIView(frame: CGRect(x: 0, y: 360, width: 750, height: 15))
+
 
 
 
@@ -88,6 +88,9 @@ class SaveFoods: UIViewController {
     @IBOutlet weak var mood: UIImageView!
     @IBOutlet weak var backButton: UIButton!
     
+    //Inizializzazione della barriera per renderla globale
+     var barrier: UIView!
+    
     var globalCounter = 0
     var score = 0
     
@@ -99,6 +102,11 @@ class SaveFoods: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Inizializzazione di barriera ottimizzata con constraint
+        barrier = UIView(frame: CGRect(x: 0, y: (Int(UInt32(self.view.frame.size.height-15
+        ))), width: (Int(UInt32(self.view.frame.size.width+15
+        ))), height: 15))
         
         score = 0
         globalCounter = 0
@@ -171,7 +179,8 @@ class SaveFoods: UIViewController {
     
     //____1____Funzione di creazione del cibo con coordinate random sull'asseX_______//
     func createRandomFoodOnX(sender : UIButton) {
-        corX = Int(arc4random_uniform(600))
+        corX = Int(arc4random_uniform((UInt32(self.view.frame.size.width-15
+        ))))
         corY = Int(arc4random_uniform(35))
         numberRandom = Int(arc4random_uniform(27))
         sender.center = CGPoint (x: corX, y: corY)
@@ -194,7 +203,8 @@ class SaveFoods: UIViewController {
     //____2____Funzione di creazione del cibo con coordinate random sull'asseX_______//
     
     func createRandomFoodOnXII(sender : UIButton) {
-        corX2 = Int(arc4random_uniform(600))
+        corX2 = Int(arc4random_uniform((UInt32(self.view.frame.size.width-15
+        ))))
         corY = Int(arc4random_uniform(10))
         numberRandom = Int(arc4random_uniform(27))
         sender.center = CGPoint (x: corX2, y: corY)
@@ -220,7 +230,8 @@ class SaveFoods: UIViewController {
     
     //____3____Funzione di creazione del cibo con coordinate random sull'asseX_______//
     func createRandomFoodOnXIII(sender : UIButton) {
-        corX = Int(arc4random_uniform(600))
+        corX = Int(arc4random_uniform((UInt32(self.view.frame.size.width-15
+        ))))
         corY = Int(arc4random_uniform(15))
         numberRandom = Int(arc4random_uniform(27))
         sender.center = CGPoint (x: corX, y: corY)
@@ -243,7 +254,8 @@ class SaveFoods: UIViewController {
     //____4____Funzione di creazione del cibo con coordinate random sull'asseX_______//
     
     func createRandomFoodOnXIV(sender : UIButton) {
-        corX = Int(arc4random_uniform(600))
+        corX = (Int(arc4random_uniform((UInt32(self.view.frame.size.width-15
+        )))))
         corY = Int(arc4random_uniform(125))
         numberRandom = Int(arc4random_uniform(27))
         sender.center = CGPoint (x: corX, y: corY)
@@ -266,7 +278,8 @@ class SaveFoods: UIViewController {
     
     //____5____Funzione di creazione del cibo con coordinate random sull'asseX_______//
     func createRandomFoodOnXV(sender : UIButton) {
-        corX = Int(arc4random_uniform(600))
+        corX = Int(arc4random_uniform((UInt32(self.view.frame.size.width-15
+        ))))
         corY = Int(arc4random_uniform(25))
         numberRandom = Int(arc4random_uniform(9))
         sender.center = CGPoint (x: corX, y: corY)
@@ -289,7 +302,8 @@ class SaveFoods: UIViewController {
     //____6____Funzione di creazione del cibo con coordinate random sull'asseX_______//
     
     func createRandomFoodOnXVI(sender : UIButton) {
-        corX = Int(arc4random_uniform(600))
+        corX = Int(arc4random_uniform((UInt32(self.view.frame.size.width-15
+        ))))
         corY = Int(arc4random_uniform(65))
         numberRandom = Int(arc4random_uniform(9))
         sender.center = CGPoint (x: corX, y: corY)
@@ -317,7 +331,8 @@ class SaveFoods: UIViewController {
     
     func createRandomFoodOnXVII(sender : UIButton) {
 //        delayWithSeconds(3){
-            corX = Int(arc4random_uniform(600))
+        corX = Int(arc4random_uniform((UInt32(self.view.frame.size.width-15
+        ))))
             corY = Int(arc4random_uniform(125))
             numberRandom = Int(arc4random_uniform(27))
             sender.center = CGPoint (x: corX, y: corY)
@@ -344,7 +359,8 @@ class SaveFoods: UIViewController {
     
     func createRandomFoodOnXVIII(sender : UIButton) {
 //        delayWithSeconds(3){
-            corX = Int(arc4random_uniform(600))
+        corX = Int(arc4random_uniform((UInt32(self.view.frame.size.width-15
+        ))))
             corY = Int(arc4random_uniform(125))
             numberRandom = Int(arc4random_uniform(9))
             sender.center = CGPoint (x: corX, y: corY)

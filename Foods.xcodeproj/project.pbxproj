@@ -44,7 +44,6 @@
 		47BBBC032004D23C009966F0 /* HappyTummy Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 47BBBC022004D23C009966F0 /* HappyTummy Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		47BBBC132004D23C009966F0 /* HappyTummy Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 47BBBBF62004D23B009966F0 /* HappyTummy Watch.app */; };
 		47BBBC1D2004D4F7009966F0 /* Connectio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBBC1C2004D4F7009966F0 /* Connectio.swift */; };
-		47D2AA912056B25100ECC7CB /* SaveFoods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D2AA902056B25100ECC7CB /* SaveFoods.swift */; };
 		47E0673C1FEB0D4E00C62FDA /* Anguria_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E0673A1FEB0D4D00C62FDA /* Anguria_1.mp3 */; };
 		47E0673D1FEB0D4E00C62FDA /* Anguria_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E0673B1FEB0D4E00C62FDA /* Anguria_2.mp3 */; };
 		47E067441FEB14F200C62FDA /* Hotdog_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E0673E1FEB14F100C62FDA /* Hotdog_3.mp3 */; };
@@ -66,7 +65,6 @@
 		95131DBA1FE4075700F7DF3F /* Sito.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95131DB91FE4075700F7DF3F /* Sito.swift */; };
 		95131DC11FE41D3A00F7DF3F /* musica.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 95131DC01FE41D3A00F7DF3F /* musica.mp3 */; };
 		95131DC51FE4302E00F7DF3F /* PickHealthy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95131DC41FE4302E00F7DF3F /* PickHealthy.swift */; };
-		957A1B321FE800BD00DAB851 /* DragDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957A1B311FE800BD00DAB851 /* DragDrop.swift */; };
 		957A1B391FE80F8A00DAB851 /* cocomeroCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957A1B341FE80F8900DAB851 /* cocomeroCustomView.swift */; };
 		957A1B3A1FE80F8A00DAB851 /* CarotaCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957A1B351FE80F8900DAB851 /* CarotaCustomView.swift */; };
 		957A1B3B1FE80F8A00DAB851 /* appleCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957A1B361FE80F8A00DAB851 /* appleCustomView.swift */; };
@@ -84,6 +82,8 @@
 		957A1B551FE941FD00DAB851 /* FoodCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957A1B541FE941FD00DAB851 /* FoodCustomView.swift */; };
 		957A1B571FE9439C00DAB851 /* ChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957A1B561FE9439C00DAB851 /* ChooseViewController.swift */; };
 		957A1B5B1FE966ED00DAB851 /* AirBalloonCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957A1B5A1FE966ED00DAB851 /* AirBalloonCustomView.swift */; };
+		EF6DA91120596A8500926E6D /* SaveFoods.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6DA91020596A8400926E6D /* SaveFoods.swift */; };
+		EF6DA91320596A9C00926E6D /* DragDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6DA91220596A9C00926E6D /* DragDrop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -179,7 +179,6 @@
 		47BBBBF62004D23B009966F0 /* HappyTummy Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HappyTummy Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47BBBC022004D23C009966F0 /* HappyTummy Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HappyTummy Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47BBBC1C2004D4F7009966F0 /* Connectio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectio.swift; sourceTree = "<group>"; };
-		47D2AA902056B25100ECC7CB /* SaveFoods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveFoods.swift; sourceTree = "<group>"; };
 		47E0673A1FEB0D4D00C62FDA /* Anguria_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Anguria_1.mp3; sourceTree = "<group>"; };
 		47E0673B1FEB0D4E00C62FDA /* Anguria_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Anguria_2.mp3; sourceTree = "<group>"; };
 		47E0673E1FEB14F100C62FDA /* Hotdog_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hotdog_3.mp3; sourceTree = "<group>"; };
@@ -207,7 +206,6 @@
 		95131DB91FE4075700F7DF3F /* Sito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sito.swift; sourceTree = "<group>"; };
 		95131DC01FE41D3A00F7DF3F /* musica.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = musica.mp3; sourceTree = "<group>"; };
 		95131DC41FE4302E00F7DF3F /* PickHealthy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickHealthy.swift; sourceTree = "<group>"; };
-		957A1B311FE800BD00DAB851 /* DragDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragDrop.swift; sourceTree = "<group>"; };
 		957A1B341FE80F8900DAB851 /* cocomeroCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cocomeroCustomView.swift; sourceTree = "<group>"; };
 		957A1B351FE80F8900DAB851 /* CarotaCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarotaCustomView.swift; sourceTree = "<group>"; };
 		957A1B361FE80F8A00DAB851 /* appleCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = appleCustomView.swift; sourceTree = "<group>"; };
@@ -225,6 +223,8 @@
 		957A1B541FE941FD00DAB851 /* FoodCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodCustomView.swift; sourceTree = "<group>"; };
 		957A1B561FE9439C00DAB851 /* ChooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseViewController.swift; sourceTree = "<group>"; };
 		957A1B5A1FE966ED00DAB851 /* AirBalloonCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirBalloonCustomView.swift; sourceTree = "<group>"; };
+		EF6DA91020596A8400926E6D /* SaveFoods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveFoods.swift; sourceTree = "<group>"; };
+		EF6DA91220596A9C00926E6D /* DragDrop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragDrop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -288,10 +288,10 @@
 				95131DBD1FE41CEE00F7DF3F /* music */,
 				95131D8B1FE3E6A100F7DF3F /* AppDelegate.swift */,
 				47BBBC1C2004D4F7009966F0 /* Connectio.swift */,
-				957A1B311FE800BD00DAB851 /* DragDrop.swift */,
 				95131D8D1FE3E6A100F7DF3F /* ViewController.swift */,
+				EF6DA91020596A8400926E6D /* SaveFoods.swift */,
+				EF6DA91220596A9C00926E6D /* DragDrop.swift */,
 				95131DC41FE4302E00F7DF3F /* PickHealthy.swift */,
-				47D2AA902056B25100ECC7CB /* SaveFoods.swift */,
 				95131DB91FE4075700F7DF3F /* Sito.swift */,
 				95131D8F1FE3E6A100F7DF3F /* Main.storyboard */,
 				957A1B561FE9439C00DAB851 /* ChooseViewController.swift */,
@@ -645,9 +645,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				957A1B3B1FE80F8A00DAB851 /* appleCustomView.swift in Sources */,
-				957A1B321FE800BD00DAB851 /* DragDrop.swift in Sources */,
 				957A1B5B1FE966ED00DAB851 /* AirBalloonCustomView.swift in Sources */,
-				47D2AA912056B25100ECC7CB /* SaveFoods.swift in Sources */,
+				EF6DA91120596A8500926E6D /* SaveFoods.swift in Sources */,
+				EF6DA91320596A9C00926E6D /* DragDrop.swift in Sources */,
 				957A1B441FE80FA500DAB851 /* MerendinaCustomView.swift in Sources */,
 				957A1B3A1FE80F8A00DAB851 /* CarotaCustomView.swift in Sources */,
 				957A1B571FE9439C00DAB851 /* ChooseViewController.swift in Sources */,

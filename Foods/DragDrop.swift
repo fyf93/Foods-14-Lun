@@ -60,7 +60,9 @@
         
             func create(){
                 
-                myView.center = CGPoint(x: 338, y: 160)
+                myView.center = CGPoint(x:  Int((UInt32(self.view.frame.size.width/2-(20)
+                ))), y: Int(((UInt32(self.view.frame.size.height/2
+                )))))
                 
                 myView.addSubview(foodImage)
                 
@@ -190,9 +192,11 @@
                     myView.removeFromSuperview()
                     view.addSubview(myView)
                     create()
-                }else if newpoint.x > 576 {
+                }else if newpoint.x > (CGFloat((UInt32(self.view.frame.size.height-125
+                ))))  {
                     myView.center = CGPoint(x: newpoint.x, y: newpoint.y)
-                }else if newpoint.y > 326{
+                }else if newpoint.y > (CGFloat((UInt32(self.view.frame.size.width-325
+                )))){
                     myView.center = CGPoint(x: newpoint.x, y: newpoint.y)
                     
                 }
