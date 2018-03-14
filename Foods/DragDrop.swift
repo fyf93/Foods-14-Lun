@@ -61,6 +61,7 @@
             func create(){
                 
                 myView.center = CGPoint(x: 338, y: 160)
+                
                 myView.addSubview(foodImage)
                 
                 numberArray = Int(arc4random_uniform(upperlimit))
