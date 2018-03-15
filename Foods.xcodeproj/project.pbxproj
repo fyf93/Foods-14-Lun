@@ -40,10 +40,6 @@
 		4745DBAD1FEB094F00B07453 /* Pollo_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4745DBA71FEB094F00B07453 /* Pollo_1.mp3 */; };
 		4745DBAE1FEB094F00B07453 /* Pollo_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4745DBA81FEB094F00B07453 /* Pollo_3.mp3 */; };
 		4745DBAF1FEB094F00B07453 /* Pollo_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4745DBA91FEB094F00B07453 /* Pollo_2.mp3 */; };
-		476169782005295C006545D3 /* Connectio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBBC1C2004D4F7009966F0 /* Connectio.swift */; };
-		47BBBC032004D23C009966F0 /* HappyTummy Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 47BBBC022004D23C009966F0 /* HappyTummy Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		47BBBC132004D23C009966F0 /* HappyTummy Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 47BBBBF62004D23B009966F0 /* HappyTummy Watch.app */; };
-		47BBBC1D2004D4F7009966F0 /* Connectio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBBC1C2004D4F7009966F0 /* Connectio.swift */; };
 		47E0673C1FEB0D4E00C62FDA /* Anguria_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E0673A1FEB0D4D00C62FDA /* Anguria_1.mp3 */; };
 		47E0673D1FEB0D4E00C62FDA /* Anguria_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E0673B1FEB0D4E00C62FDA /* Anguria_2.mp3 */; };
 		47E067441FEB14F200C62FDA /* Hotdog_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47E0673E1FEB14F100C62FDA /* Hotdog_3.mp3 */; };
@@ -84,23 +80,10 @@
 		957A1B5B1FE966ED00DAB851 /* AirBalloonCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957A1B5A1FE966ED00DAB851 /* AirBalloonCustomView.swift */; };
 		EF6DA91120596A8500926E6D /* SaveFoods.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6DA91020596A8400926E6D /* SaveFoods.swift */; };
 		EF6DA91320596A9C00926E6D /* DragDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6DA91220596A9C00926E6D /* DragDrop.swift */; };
+		EF6DA919205ADCD600926E6D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6DA918205ADCD600926E6D /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		47BBBC042004D23C009966F0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 95131D801FE3E6A100F7DF3F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 47BBBC012004D23C009966F0;
-			remoteInfo = "HappyTummy Watch Extension";
-		};
-		47BBBC112004D23C009966F0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 95131D801FE3E6A100F7DF3F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 47BBBBF52004D23B009966F0;
-			remoteInfo = "HappyTummy Watch";
-		};
 		95131D9D1FE3E6A100F7DF3F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 95131D801FE3E6A100F7DF3F /* Project object */;
@@ -118,24 +101,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		47BBBC172004D23C009966F0 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				47BBBC032004D23C009966F0 /* HappyTummy Watch Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		47BBBC1B2004D23C009966F0 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				47BBBC132004D23C009966F0 /* HappyTummy Watch.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,9 +147,6 @@
 		4745DBA71FEB094F00B07453 /* Pollo_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pollo_1.mp3; sourceTree = "<group>"; };
 		4745DBA81FEB094F00B07453 /* Pollo_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pollo_3.mp3; sourceTree = "<group>"; };
 		4745DBA91FEB094F00B07453 /* Pollo_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pollo_2.mp3; sourceTree = "<group>"; };
-		47BBBBF62004D23B009966F0 /* HappyTummy Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HappyTummy Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		47BBBC022004D23C009966F0 /* HappyTummy Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HappyTummy Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		47BBBC1C2004D4F7009966F0 /* Connectio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectio.swift; sourceTree = "<group>"; };
 		47E0673A1FEB0D4D00C62FDA /* Anguria_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Anguria_1.mp3; sourceTree = "<group>"; };
 		47E0673B1FEB0D4E00C62FDA /* Anguria_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Anguria_2.mp3; sourceTree = "<group>"; };
 		47E0673E1FEB14F100C62FDA /* Hotdog_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hotdog_3.mp3; sourceTree = "<group>"; };
@@ -225,20 +193,16 @@
 		957A1B5A1FE966ED00DAB851 /* AirBalloonCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirBalloonCustomView.swift; sourceTree = "<group>"; };
 		EF6DA91020596A8400926E6D /* SaveFoods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveFoods.swift; sourceTree = "<group>"; };
 		EF6DA91220596A9C00926E6D /* DragDrop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragDrop.swift; sourceTree = "<group>"; };
+		EF6DA917205ADCCC00926E6D /* Foods.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Foods.entitlements; sourceTree = "<group>"; };
+		EF6DA918205ADCD600926E6D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		47BBBBFF2004D23C009966F0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		95131D851FE3E6A100F7DF3F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF6DA919205ADCD600926E6D /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +231,7 @@
 				95131D9F1FE3E6A100F7DF3F /* FoodsTests */,
 				95131DAA1FE3E6A100F7DF3F /* FoodsUITests */,
 				95131D891FE3E6A100F7DF3F /* Products */,
+				EF6DA914205ADCCA00926E6D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -276,8 +241,6 @@
 				95131D881FE3E6A100F7DF3F /* Foods.app */,
 				95131D9C1FE3E6A100F7DF3F /* FoodsTests.xctest */,
 				95131DA71FE3E6A100F7DF3F /* FoodsUITests.xctest */,
-				47BBBBF62004D23B009966F0 /* HappyTummy Watch.app */,
-				47BBBC022004D23C009966F0 /* HappyTummy Watch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -285,9 +248,9 @@
 		95131D8A1FE3E6A100F7DF3F /* Foods */ = {
 			isa = PBXGroup;
 			children = (
+				EF6DA917205ADCCC00926E6D /* Foods.entitlements */,
 				95131DBD1FE41CEE00F7DF3F /* music */,
 				95131D8B1FE3E6A100F7DF3F /* AppDelegate.swift */,
-				47BBBC1C2004D4F7009966F0 /* Connectio.swift */,
 				95131D8D1FE3E6A100F7DF3F /* ViewController.swift */,
 				EF6DA91020596A8400926E6D /* SaveFoods.swift */,
 				EF6DA91220596A9C00926E6D /* DragDrop.swift */,
@@ -395,43 +358,17 @@
 			path = CustomAnimation;
 			sourceTree = "<group>";
 		};
+		EF6DA914205ADCCA00926E6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF6DA918205ADCD600926E6D /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		47BBBBF52004D23B009966F0 /* HappyTummy Watch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 47BBBC182004D23C009966F0 /* Build configuration list for PBXNativeTarget "HappyTummy Watch" */;
-			buildPhases = (
-				47BBBBF42004D23B009966F0 /* Resources */,
-				47BBBC172004D23C009966F0 /* Embed App Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				47BBBC052004D23C009966F0 /* PBXTargetDependency */,
-			);
-			name = "HappyTummy Watch";
-			productName = "HappyTummy Watch";
-			productReference = 47BBBBF62004D23B009966F0 /* HappyTummy Watch.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
-		47BBBC012004D23C009966F0 /* HappyTummy Watch Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 47BBBC142004D23C009966F0 /* Build configuration list for PBXNativeTarget "HappyTummy Watch Extension" */;
-			buildPhases = (
-				47BBBBFE2004D23C009966F0 /* Sources */,
-				47BBBBFF2004D23C009966F0 /* Frameworks */,
-				47BBBC002004D23C009966F0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "HappyTummy Watch Extension";
-			productName = "HappyTummy Watch Extension";
-			productReference = 47BBBC022004D23C009966F0 /* HappyTummy Watch Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
-		};
 		95131D871FE3E6A100F7DF3F /* Foods */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95131DB01FE3E6A100F7DF3F /* Build configuration list for PBXNativeTarget "Foods" */;
@@ -444,7 +381,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				47BBBC122004D23C009966F0 /* PBXTargetDependency */,
 			);
 			name = Foods;
 			productName = Foods;
@@ -497,20 +433,27 @@
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Anna Grazia Cervo";
 				TargetAttributes = {
-					47BBBBF52004D23B009966F0 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-					};
-					47BBBC012004D23C009966F0 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-					};
 					95131D871FE3E6A100F7DF3F = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 0;
+							};
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
 							};
 						};
 					};
@@ -542,27 +485,11 @@
 				95131D871FE3E6A100F7DF3F /* Foods */,
 				95131D9B1FE3E6A100F7DF3F /* FoodsTests */,
 				95131DA61FE3E6A100F7DF3F /* FoodsUITests */,
-				47BBBBF52004D23B009966F0 /* HappyTummy Watch */,
-				47BBBC012004D23C009966F0 /* HappyTummy Watch Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		47BBBBF42004D23B009966F0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		47BBBC002004D23C009966F0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		95131D861FE3E6A100F7DF3F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -632,14 +559,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		47BBBBFE2004D23C009966F0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				476169782005295C006545D3 /* Connectio.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		95131D841FE3E6A100F7DF3F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -652,7 +571,6 @@
 				957A1B3A1FE80F8A00DAB851 /* CarotaCustomView.swift in Sources */,
 				957A1B571FE9439C00DAB851 /* ChooseViewController.swift in Sources */,
 				957A1B531FE941E000DAB851 /* BasketCustomView.swift in Sources */,
-				47BBBC1D2004D4F7009966F0 /* Connectio.swift in Sources */,
 				957A1B471FE80FA500DAB851 /* formaggioCustomView.swift in Sources */,
 				957A1B4F1FE9297100DAB851 /* UovoCustomView.swift in Sources */,
 				957A1B431FE80FA500DAB851 /* hotdogCustomView.swift in Sources */,
@@ -693,16 +611,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		47BBBC052004D23C009966F0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 47BBBC012004D23C009966F0 /* HappyTummy Watch Extension */;
-			targetProxy = 47BBBC042004D23C009966F0 /* PBXContainerItemProxy */;
-		};
-		47BBBC122004D23C009966F0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 47BBBBF52004D23B009966F0 /* HappyTummy Watch */;
-			targetProxy = 47BBBC112004D23C009966F0 /* PBXContainerItemProxy */;
-		};
 		95131D9E1FE3E6A100F7DF3F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 95131D871FE3E6A100F7DF3F /* Foods */;
@@ -735,80 +643,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		47BBBC152004D23C009966F0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R5M755L7D9;
-				INFOPLIST_FILE = "HappyTummy Watch Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iosda.org.Foods.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.2;
-			};
-			name = Debug;
-		};
-		47BBBC162004D23C009966F0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R5M755L7D9;
-				INFOPLIST_FILE = "HappyTummy Watch Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iosda.org.Foods.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.2;
-			};
-			name = Release;
-		};
-		47BBBC192004D23C009966F0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R5M755L7D9;
-				IBSC_MODULE = HappyTummy_Watch_Extension;
-				INFOPLIST_FILE = "HappyTummy Watch/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iosda.org.Foods.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.2;
-			};
-			name = Debug;
-		};
-		47BBBC1A2004D23C009966F0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R5M755L7D9;
-				IBSC_MODULE = HappyTummy_Watch_Extension;
-				INFOPLIST_FILE = "HappyTummy Watch/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iosda.org.Foods.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.2;
-			};
-			name = Release;
-		};
 		95131DAE1FE3E6A100F7DF3F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -920,6 +754,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Foods/Foods.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P6K6GYD9K2;
 				INFOPLIST_FILE = Foods/Info.plist;
@@ -935,6 +770,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Foods/Foods.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P6K6GYD9K2;
 				INFOPLIST_FILE = Foods/Info.plist;
@@ -952,6 +788,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6K6GYD9K2;
 				INFOPLIST_FILE = FoodsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iosda.org.FoodsTests;
@@ -968,6 +805,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6K6GYD9K2;
 				INFOPLIST_FILE = FoodsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iosda.org.FoodsTests;
@@ -983,6 +821,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6K6GYD9K2;
 				INFOPLIST_FILE = FoodsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iosda.org.FoodsUITests;
@@ -998,6 +837,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6K6GYD9K2;
 				INFOPLIST_FILE = FoodsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iosda.org.FoodsUITests;
@@ -1011,24 +851,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		47BBBC142004D23C009966F0 /* Build configuration list for PBXNativeTarget "HappyTummy Watch Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				47BBBC152004D23C009966F0 /* Debug */,
-				47BBBC162004D23C009966F0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		47BBBC182004D23C009966F0 /* Build configuration list for PBXNativeTarget "HappyTummy Watch" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				47BBBC192004D23C009966F0 /* Debug */,
-				47BBBC1A2004D23C009966F0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		95131D831FE3E6A100F7DF3F /* Build configuration list for PBXProject "Foods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

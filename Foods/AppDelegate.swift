@@ -7,73 +7,35 @@
 //
 
 
-import WatchKit
+
 import Foundation
 
 //*** 1: ok
-import WatchConnectivity
 
-class InterfaceController: WKInterfaceController {
-    
-    let watchSession = WCSession.default
-    
-    //*** 2 Label that specifies if the app is active: ok
-    @IBOutlet var isHTActiveLabel: WKInterfaceLabel!
-    
-    override func awake(withContext context: Any?) {
-        super.awake(withContext: context)
-        
-        // Configure interface objects here.
-        
-        //*** 3 observer che verifichi riceva messaggio dall'iphone e quindi esegui "didReceivedPhoneData"
-        NotificationCenter.default.addObserver(self, selector: #selector(didReceivedPhoneData), name: NSNotification.Name(rawValue: "receivedPhoneData"), object: nil)
-    }
-    
-    //*** 4 print text: ok
-    @objc func didReceivedPhoneData(info: NSNotification){
-        let msg = info.userInfo!
-        isHTActiveLabel.setText(msg["msg"] as? String)
-    }
-    
-    override func willActivate() {
-        // This method is called when watch view controller is about to be visible to user
-        super.willActivate()
-    }
-    
-    override func didDeactivate() {
-        // This method is called when watch view controller is no longer visible
-        super.didDeactivate()
-    }
-    
-}
+
 
 import UIKit
 
 //*** 1 import module: ok
-import WatchConnectivity
 
 //*** 2 import protocol: ok
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate, WCSessionDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate {
     
     
     //***
-    func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
-        //code
-    }
     
-    func sessionDidBecomeInactive(_ session: WCSession) {
-        //code
-    }
     
-    func sessionDidDeactivate(_ session: WCSession) {
+    //func sessionDidBecomeInactive(_ session: WCSession) {
         //code
-    }
+    //}
+    
+    //func sessionDidDeactivate(_ session: WCSession) {
+        //code
+    
     
     //*** 3 manda notifica ricevuto messaggio da apple watch con info "message"
-    func session(_ session: WCSession, didReceiveMessage message: [String : Any]) {
-        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "receivedWatchMessage"), object: self, userInfo: message)
-    }
+   
     
     var window: UIWindow?
     
@@ -81,13 +43,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, WCSessionDelegate {
         // Override point for customization after application launch.
         
         //*** 4 configure session: ok
-        if WCSession.isSupported() {
-            let watchSession = WCSession.default
-            watchSession.delegate = self
-            watchSession.activate()
-            
-        }
-        
+       
         
         return true
     }

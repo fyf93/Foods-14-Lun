@@ -277,12 +277,27 @@
                                 <color key="backgroundColor" red="0.76888346672058105" green="0.94852399826049805" blue="0.99216103553771973" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ika-gc-z14">
-                                <rect key="frame" x="-24" y="0.0" width="74" height="272"/>
+                                <rect key="frame" x="0.0" y="444" width="49" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76888346669999996" green="0.9485239983" blue="0.99216103550000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.58822870254516602" green="0.89276766777038574" blue="0.48625096678733826" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Rh-Xy-YMW">
+                                <rect key="frame" x="10" y="344" width="818" height="209"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.58822870250000003" green="0.89276766780000005" blue="0.48625096680000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OOb-rY-aI7">
+                                <rect key="frame" x="767" y="271" width="45" height="292"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.58822870250000003" green="0.89276766780000005" blue="0.48625096680000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1XP-dI-lAY">
+                                <rect key="frame" x="-21" y="325" width="90" height="272"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.58822870250000003" green="0.89276766780000005" blue="0.48625096680000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.58822870254516602" green="0.89276766777038574" blue="0.48625096678733826" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.76888346669999996" green="0.9485239983" blue="0.99216103550000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="Gq5-wl-aY9" firstAttribute="bottom" secondItem="wqL-Ao-1cZ" secondAttribute="bottom" id="8ub-2q-sQc"/>
                             <constraint firstItem="wqL-Ao-1cZ" firstAttribute="trailing" secondItem="cFG-sL-C2A" secondAttribute="trailing" constant="29" id="Gky-9D-nQX"/>
@@ -797,8 +812,13 @@
                                     <constraint firstAttribute="width" constant="160" id="qBr-os-oeL"/>
                                 </constraints>
                             </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ErN-Yf-9ri">
+                                <rect key="frame" x="748" y="-68" width="74" height="167"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.76888346669999996" green="0.9485239983" blue="0.99216103550000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.58822870254516602" green="0.89276766777038574" blue="0.48625096678733826" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="vry-3j-yiC" firstAttribute="trailing" secondItem="x03-pm-rs5" secondAttribute="trailing" id="5zU-kr-J5v"/>
                             <constraint firstItem="ulq-cY-WxH" firstAttribute="trailing" secondItem="kNc-i5-773" secondAttribute="trailing" id="63E-wn-AGt"/>
@@ -834,7 +854,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kfs-Ba-a71" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1159.8591549295775" y="-1869.375"/>
+            <point key="canvasLocation" x="1159.3596059113302" y="-1869.5999999999999"/>
         </scene>
         <!--Choose View Controller-->
         <scene sceneID="91S-OU-4ie">
