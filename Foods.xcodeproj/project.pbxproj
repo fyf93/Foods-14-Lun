@@ -81,6 +81,7 @@
 		EF6DA91120596A8500926E6D /* SaveFoods.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6DA91020596A8400926E6D /* SaveFoods.swift */; };
 		EF6DA91320596A9C00926E6D /* DragDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6DA91220596A9C00926E6D /* DragDrop.swift */; };
 		EF6DA919205ADCD600926E6D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6DA918205ADCD600926E6D /* MapKit.framework */; };
+		EF6DA91D205AE2A000926E6D /* Connectio.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6DA91C205AE2A000926E6D /* Connectio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -195,6 +196,7 @@
 		EF6DA91220596A9C00926E6D /* DragDrop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragDrop.swift; sourceTree = "<group>"; };
 		EF6DA917205ADCCC00926E6D /* Foods.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Foods.entitlements; sourceTree = "<group>"; };
 		EF6DA918205ADCD600926E6D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EF6DA91C205AE2A000926E6D /* Connectio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connectio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +254,7 @@
 				95131DBD1FE41CEE00F7DF3F /* music */,
 				95131D8B1FE3E6A100F7DF3F /* AppDelegate.swift */,
 				95131D8D1FE3E6A100F7DF3F /* ViewController.swift */,
+				EF6DA91C205AE2A000926E6D /* Connectio.swift */,
 				EF6DA91020596A8400926E6D /* SaveFoods.swift */,
 				EF6DA91220596A9C00926E6D /* DragDrop.swift */,
 				95131DC41FE4302E00F7DF3F /* PickHealthy.swift */,
@@ -580,6 +583,7 @@
 				47FA18B12056B5A90005222B /* colaCustomView.swift in Sources */,
 				957A1B4D1FE8135A00DAB851 /* KnowViewController.swift in Sources */,
 				95131D8E1FE3E6A100F7DF3F /* ViewController.swift in Sources */,
+				EF6DA91D205AE2A000926E6D /* Connectio.swift in Sources */,
 				957A1B551FE941FD00DAB851 /* FoodCustomView.swift in Sources */,
 				47FA18B02056B5A90005222B /* CaramelleCustomView.swift in Sources */,
 				95131DC51FE4302E00F7DF3F /* PickHealthy.swift in Sources */,
@@ -759,7 +763,7 @@
 				DEVELOPMENT_TEAM = P6K6GYD9K2;
 				INFOPLIST_FILE = Foods/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iosda.org.Foods;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosda.org.Happy-Tummy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -775,7 +779,7 @@
 				DEVELOPMENT_TEAM = P6K6GYD9K2;
 				INFOPLIST_FILE = Foods/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iosda.org.Foods;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosda.org.Happy-Tummy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
